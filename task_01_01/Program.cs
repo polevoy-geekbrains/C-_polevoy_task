@@ -16,5 +16,5 @@ else if (userNumber1 > userNumber2)
 }
 else
 {
-    Console.WriteLine($"Число {userNumber1} равно числу {userNumber1}");
+    Console.WriteLine($"Эти числа равны max {userNumber1} min {userNumber2}");
 }
