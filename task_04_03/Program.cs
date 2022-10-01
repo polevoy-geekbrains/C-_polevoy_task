@@ -35,25 +35,6 @@ int getNumberFromUser(string userInformation)
     return result;
 }
 int lengthArray = getNumberFromUser("Введите длинну одномерного массива:\t");
-
-// int foundCountNumber(int[] arr1, int left, int right)
-// {
-//     int count = 0;
-//     for (int i = 0; i < arr1.Length; i++)
-//     {
-//         if (arr1[i] >= left && arr1[i] <= right)
-//         {
-//             count++;
-//         }
-//     }
-//     return count;
-// }
-
-
-
 int[] currentArray = getRandomArray(lengthArray, 1, 99);
 printArray(currentArray);
 
-// int result = foundCountNumber(lengthArray, 10, 99);
-
-//Console.WriteLine($"Количество элементов массива, значения которых лежат в отрезке [10,99] = {result}");
